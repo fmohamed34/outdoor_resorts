@@ -1,6 +1,7 @@
 body{
     padding: 1em;
-    background-image: url("/ENJOYTHEOUTDOORS/images/Earth_Goddess.jpeg");
+    text-align: center;
+    background-color: #d6e7e9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav{
@@ -16,12 +17,12 @@ nav a{
     color: rgb(15, 12, 5);
     font-size: 1em;
     padding: 0.25em;
-    margin: 1px;
+    margin: 10px;
     border-radius: 0.25em;
     display: inline-block;
 }
     .card{
-        margin: 3px 9px 9px 3px;
+        margin: 1rem;
         padding: 0.5rem;
         border-radius: 1rem;
         width: 160px;
@@ -59,11 +60,15 @@ nav a{
     .footer-container {
         background-color: #212329;
         padding-bottom: 4rem;
+        color: white;
+        width: fit-content;
+        margin: auto;
+        padding: 1rem;
     }
     
     .footer {
-        width: 70%;
-        height: 20vh;
+        width: fit-content;
+        /* height: 20vh; */
         background-color: #212329;
         color: #fff;
         display: flex;
@@ -142,7 +147,7 @@ nav a{
     
     @media screen and (max-width: 7200px) {
         .footer-3 {
-        display: none;
+        /* display: none; */
         }
         .footer-email-form {
             margin-top: 2rem;
@@ -163,6 +168,7 @@ nav a{
       
     h1 {
        color: #fff;
+       text-shadow: 0 0 #212329; 
     }
 
     p {
@@ -181,10 +187,21 @@ nav a{
             z-index: -1;
           }
 
-          .btn-margin-left {
+          /* .btn-margin-left {
             margin-left: 12px;
           }
           .btn-margin-right {
             margin-right: 12px;
+          } */
+
+          .center-me {
+            text-align: center;
           }
-    
+
+          .center-me a {
+            margin: 0.5rem;
+          }
+
+          #results {
+            min-height: 50vh;
+          }

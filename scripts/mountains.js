@@ -20,5 +20,6 @@ function mountainCard(item) {
 }
 
 document.addEventListener("DOMContentLoaded",()=>{
-    mountainsArray.forEach( m => document.body.appendChild(mountainCard(m)));
+    const results = document.getElementById("results")
+    mountainsArray.forEach( m => results.appendChild(mountainCard(m)));
 });

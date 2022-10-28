@@ -9,6 +9,8 @@ const navURLs = [
 {name: "Home", url: "index.html"},
 {name: "National Parks", url: "parks.html"},
 {name: "Mountains", url: "mountains.html"},
+{name: "Things To Do", url: "Thingstodo.html"},
+{name: "Food & Drink", url: "food&drink.html"},
 ];
 
 function navLink (item){
